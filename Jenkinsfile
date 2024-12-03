@@ -2,7 +2,7 @@ pipeline{
     agent any
     environment{
         CONTENEDOR = 'jenkins-Practica'
-        IMAGEN = 'jenkins/jenkins:lts'
+        IMAGEN = 'jenkins/jenkins'
     }
     stages{
         stage('Preparar Entorno Docker'){
