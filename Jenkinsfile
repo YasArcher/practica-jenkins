@@ -14,7 +14,7 @@ pipeline{
         stage('Clonar Repositorio'){
             steps{
                 script{
-                    git 'https://github.com/YasArcher/practica-jenkins'
+                    git 'https://github.com/YasArcher/practica-jenkins.git'
                 }
             }
         }
